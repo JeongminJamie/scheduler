@@ -3,7 +3,7 @@ import DayListItem from 'components/DayListItem';
 
 const DayList = (props) => {
 
-  const allDays = props.days.map((elem) => 
+  const allDay = props.days.map((elem) =>
   <DayListItem key={elem.id}
     name={elem.name}
     spots={elem.spots}
@@ -13,7 +13,7 @@ const DayList = (props) => {
 
   return (
     <ul>
-     {allDays}
+     {allDay}
     </ul>
   );
 };
