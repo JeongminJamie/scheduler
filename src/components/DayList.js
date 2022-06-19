@@ -8,7 +8,7 @@ const DayList = (props) => {
       <DayListItem key={elem.id}
         name={elem.name}
         spots={elem.spots}
-        selected={elem.name === props.value}
+        selected={elem.name === props.day}
         setDay={props.onChange}
       />)
 
