@@ -21,3 +21,9 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Screenshots
+
+!["Making an appointment"](./docs/make-appointment-form.png)
+!["Appointments created"](./docs/appointment-form.png)
+!["Canceling an appointment"](./docs/cancel-appointment-form.png)
